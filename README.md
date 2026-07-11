@@ -12,33 +12,17 @@
 ---
 > Updated regularly — solving 1-2 problems daily.
 ---
-🗂️ Repository Structure
-```
-leetcode-solutions/
-│
-├── Easy/
-│   ├── Questions
 
-│   ├── ...
-├── Medium/
-│   ├── Questions
-
-│   └── ...
-├── Hard/
-│   └── (coming soon)
-└── README.md
-```
----
 🧠 Topics Covered
 Topic	Status
-Arrays & Strings	✅ Done
-Strings	✅ Done
-Two Pointers	✅ Done
-Linked Lists	🔄 In Progress
-Stacks & Queue	🔄 In Progress
-Hashing	🔜 Coming Soon
-Trees & Graphs	🔜 Coming Soon
-Dynamic Programming	🔜 Coming Soon
+Arrays & Strings
+Strings	
+Two Pointers	
+Linked Lists
+Stacks & Queue
+Hashing
+Trees & Graphs
+Dynamic Programming
 ---
 💻 Languages Used
 ![C++] Language

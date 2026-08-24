@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int numTeams(vector<int>& rating) {
+        int count=0;
+        for(int i=0;i<=rating.size()-3;i++)
+        {
+            for(int j=i+1;j<=rating.size()-2;j++)
+            {
+                for(int k=j+1;k<=rating.size()-1;k++)
+            {
+                if((rating[i]>rating[j] && rating[j]>rating[k]) || (rating[i]<rating[j] &&
+                rating[j]<rating[k]))
+                {
+                    count++;
+                }
+            }
+            }
+        }
+        return count;
+    }
+};

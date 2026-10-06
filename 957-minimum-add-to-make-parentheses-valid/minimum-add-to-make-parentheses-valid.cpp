@@ -32,7 +32,7 @@ public:
         {
             if(s[i]==')')
             {
-                if(!st.empty() && st.top()=='(')
+                if(st.size()!=0 && st.top()=='(')
                 {
                     st.pop();
                 }

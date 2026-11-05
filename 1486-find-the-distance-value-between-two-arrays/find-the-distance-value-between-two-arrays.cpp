@@ -4,7 +4,7 @@ public:
         int count=0;
         for(int i=0;i<=arr1.size()-1;i++)
         {
-            bool temp=true;
+            bool temp=true; // bool element which check the the condition is true or false;
            for(int j=0;j<=arr2.size()-1;j++)
         {
             if(abs(arr1[i]-arr2[j])<=d)
